@@ -1,0 +1,52 @@
+<!doctype html>  
+
+<!--
+	This is the main index of the application
+	Your javascript should only be in this file, no JS in the templates
+	
+	The only html element in the body is the container div
+	Your code should load your page templates into the container
+	
+	You should have 2 "page templates", LANDING and APP
+	All other templates are "components" (repeatable elements)
+-->
+
+<html lang="en">
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Your Title Here</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<!--  Mobile viewport optimized: j.mp/bplateviewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- CSS concatenated and minified via ant build script-->
+	<link rel="stylesheet" href="css/style.css?v=1">
+	<!-- end CSS-->
+	
+</head>
+
+<body class="landing">
+
+	<!-- Parent container for the page, load your templates into this div -->
+	<div id="container"></div>
+	
+	
+
+	<!-- jquery separate, all other scripts will be minified -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6/jquery.min.js"></script>
+
+	<!-- scripts concatenated and minified via ant build script-->
+	<script type="text/javascript" src="js/plugins/jsrender.js"></script>
+	<script type="text/javascript" src="js/plugins/jquery.fetcher.min.js"></script>
+	<!-- end scripts-->
+	
+	<script type="text/javascript" src="js/main.js"></script>
+	
+  
+</body>
+</html>

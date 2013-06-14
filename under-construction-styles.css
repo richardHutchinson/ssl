@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #000;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div#content {
+	margin: 0px;
+	padding: 0px;
+	color: #336600;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.blink {
+	font-size: 25px;
+	text-decoration: blink;
+	font-family: Tahoma, Geneva, sans-serif, Arial;
+}

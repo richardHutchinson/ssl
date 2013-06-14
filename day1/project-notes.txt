@@ -1,0 +1,3 @@
+- do asap, put the coldfusion stuff into a coldfusion file, and the php files into a php file
+
+design: logo,login,captcha,blog

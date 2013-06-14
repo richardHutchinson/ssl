@@ -1,0 +1,27 @@
+<h2>Register</h2>
+<form action="controllers/authentication.php?action=userRegistration" method="post" enctype="multipart/form-data">
+	<h3>New User Registeation</h3>
+	<p>
+		<label for="userName">Username: </label>
+		<input type="text" name="userName" />
+	</p>
+	<p>
+		<label for="password">Password: </label>
+		<input type="password" name="password" />
+	</p>
+	<p>
+		<label for="email">Email: </label>
+		<input type="text" name="email" />
+	</p>
+	<p>
+		<label for="profileimg">Profile Image:</label>
+		<input type="file" name="profileimg" />
+	</p>
+	<p>
+		<img src="images/newCaptcha.jpg" /> <!--this is used to generate the image, php will take the default image (one can use any image and then generate a new image with the .ttf file)-->
+		<input type="text" name="captcha" />
+	</p>
+	<p>
+		<input type="submit" value="Register" />
+	</p>
+</form>

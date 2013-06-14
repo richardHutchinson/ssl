@@ -1,0 +1,3 @@
+- lecture form fix:
+
+	- change the form enctype to enctype="multipart/form-data"

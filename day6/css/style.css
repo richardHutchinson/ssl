@@ -1,0 +1,322 @@
+html, body {
+	height: 94%;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #5d5d5d;
+	background: #e9e9e9;
+}
+
+#master-container {
+	margin: 0px auto -4px;
+	/*margin: 0px auto -4px;*/
+	height: 100%;
+	min-height: 100%;
+	height: auto !important;
+}
+
+#header-repeat {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 314px;
+	background: url("../images/protask-header-bg.jpg") repeat-x;
+	position: absolute;
+}
+
+#content-container {
+	margin: 0px auto;
+	padding: 0px;
+	width: 960px;
+	position: relative;
+}
+
+/*start header*/
+#header {
+	margin: 0px;
+	padding: 0px;
+	width: 960px;
+	height: 314px;
+	float: left;
+}
+
+#header-logo {
+	margin: 0px;
+	padding: 0px;
+	width: 156px;
+	height: 101px;
+	float: left;
+}
+
+#main-nav {
+	margin: 44px 0px 0px;
+	padding: 0px;
+	width: 446px;
+	height: 14px;
+	background: url("../images/protask-main-nav.jpg") no-repeat;
+	float: left;
+}
+
+#nav-list {
+	margin: 0px;
+	padding: 0px;
+	width: 446px;
+	height: 14px;
+	position: relative;
+}
+
+#nav-list li {
+	list-style: none;
+	position: absolute;
+	top: 0px;
+}
+
+#nav-list li a {
+	height: 14px;
+	display: block;
+}
+
+#nav-list #home {
+	width: 46px;
+	left: 0px;
+	background: url("../images/protask-main-nav.jpg") no-repeat 0px 0px;
+}
+
+#nav-list #home a:hover {
+	background: url("../images/protask-main-nav.jpg") no-repeat 0px -14px;
+}
+
+#nav-list #features {
+	width: 69px;
+	left: 90px;
+	background: url("../images/protask-main-nav.jpg") no-repeat -90px 0px;
+}
+
+#nav-list #features a:hover {
+	background: url("../images/protask-main-nav.jpg") no-repeat -90px -14px;
+}
+
+#nav-list #tools {
+	width: 42px;
+	left: 203px;
+	background: url("../images/protask-main-nav.jpg") no-repeat -203px 0px;
+}
+
+#nav-list #tools a:hover {
+	background: url("../images/protask-main-nav.jpg") no-repeat -203px -14px;
+}
+
+#nav-list #addons {
+	width: 67px;
+	left: 289px;
+	background: url("../images/protask-main-nav.jpg") no-repeat -289px 0px;
+}
+
+#nav-list #addons a:hover {
+	background: url("../images/protask-main-nav.jpg") no-repeat -289px -14px;
+}
+
+#nav-list #about {
+	width: 48px;
+	left: 399px;
+	background: url("../images/protask-main-nav.jpg") no-repeat -399px 0px;
+}
+
+#nav-list #about a:hover {
+	background: url("../images/protask-main-nav.jpg") no-repeat -399px -14px;
+}
+
+#sign-in {
+	margin: 44px 0px 0px 151px;
+	padding: 0px;
+	width: 64px;
+	height: 50px;
+	float: left;
+}
+
+#log-in {
+	margin: 37px 0px 0px 57px;
+	padding: 0px;
+	width: 168px;
+	color: #DDD;
+	font-weight: bold;
+	float: left;
+}
+
+#log-in input {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 2px 0px;
+	width: 86px;
+	height: 13px;
+	background: url("../images/protask-user-input.jpg") no-repeat;
+	border: 0px;
+}
+
+.input-1 {
+	margin: 0px;
+	padding: 0px;
+	width: 86px;
+	float: right;
+}
+
+#sign-up {
+	margin: 22px 0px 0px 24px;
+	padding: 0px;
+	width: 86px;
+	height: 50px;
+	float: left;
+}
+
+#catch {
+	margin: 123px auto;
+	padding: 0px;
+	width: 645px;
+	height: 186px;
+	background: url("../images/protask-catch.jpg") no-repeat;
+}
+/*end header*/
+
+#content {
+	margin: 0px;
+	padding: 44px 22px 35px;
+	width: 916px;
+	position: relative;
+	float: left;
+}
+
+#content-left {
+	margin: 0px 22px 0px 0px;
+	padding: 0px;
+	width: 436px;
+	float: left;
+}
+
+#content-right {
+	margin: 0px 0px 0px 22px;
+	padding: 0px ;
+	width: 436px;
+	font-size: 20px;
+	float: left;
+}
+
+.content-left {
+	margin: 0px;
+	padding: 0px;
+	width: 400px;
+	float: left;
+}
+
+.content-right {
+	margin: 0px;
+	padding: 0px 0px 0px 30px;
+	width: 370px; /*400px*/
+	border-left: solid #CCC 1px;
+	float: right;
+}
+
+.input-label-2 {
+	margin: 32px 0px 0px;
+	padding: 0px;
+	width: 100px;
+	display: block;
+	float: left;
+}
+
+.valid, .error, .error_message{
+	margin: 0px;
+	padding: 5px;
+	width: 390px; /*400*/
+	color: #999;
+	background: #272;
+	border-bottom: dashed 1px #555;
+	overflow: auto;
+	float: left;
+}
+
+.error{
+	background: #711;
+}
+
+.error_message{
+	margin: 0px 0px 20px;
+	font-weight: bold;
+	background: #400;
+}
+
+#content-right form input {
+	margin: 0px;
+	padding: 0px 10px 0px;
+	width: 226px;
+	height: 29px;
+	background: url("../images/protask-new-user-input.jpg") no-repeat;
+	border: none;
+}
+
+.input-2 {
+	margin: 0px 0px 27px;
+	padding: 0px;
+	width: auto;
+	font-size: 20px;
+	float: right;
+}
+
+#new-user-bg{
+	margin: 0px;
+	padding: 27px 36px 0px;
+	width: 364px;
+	height: 274px;
+	background: url("../images/protask-new-user-bg.jpg") no-repeat;
+}
+
+/*start footer*/
+#footer-repeat{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 105px;
+	background: url("../images/protask-footer-bg.jpg") repeat-x;
+}
+
+#footer, .push {
+	height: 4px;
+}
+
+#footer {
+	margin: 0px auto;
+	padding: 0px;
+	width: 960px;
+	height: 105px;
+}
+
+#footer-logo {
+	margin: 0px;
+	padding: 0px;
+	width: 156px;
+	height: 105px;
+	float: left;
+}
+/*end footer*/
+
+/*start misc*/
+.p1 {
+	margin: 49px 0px 0px;
+	padding: 0px;
+	width: auto;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: right;
+	float: right;
+}
+
+.em{
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+/*end misc*/
